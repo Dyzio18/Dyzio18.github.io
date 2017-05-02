@@ -1,5 +1,5 @@
 # Dyzio18.github.io 
-[Visit my website](https://patryk-nizio.pl)
+[Visit my website](http://patryk-nizio.pl/)
 
 Quiz App  
 + [Live](https://dyzio18.github.io/quiz_app/)
