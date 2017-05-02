@@ -19,7 +19,7 @@
 	.quiz__question{
 		margin:5px 15px;
 
-		.quiz__questionText{
+		.question__text{
 			font-size:1.1rem;
 		}
 	}
@@ -39,17 +39,13 @@
 		p:hover, p:active{
 			background-color: #abe1ff;
 		}
-		label,input{
-			font-size: 1rem;
-			line-height: 1rem;
-		}
 
 		.quiz__answer--correct{
 			background-color: $mint;
 		}
 	}
 
-	button{
+	.quiz__btn{
 		display: block;
 		margin: 0 auto;
 	}
@@ -66,12 +62,18 @@
 
 }
 
-@media (min-width: $med_Width){
-.quiz{
-	margin: 50px auto;
-	width: 500px;
+@media (min-width: $mdWidth){
+	.quiz{
+		margin: 50px auto;
+		width: 500px;
+	}
+}
 
+@media (min-width: $lgWidth){
+	.quiz{
+		width: 600px;
+	}
 }
-}
+
 
 @include color_animate_keyframes($mint,$peach,$blueSecondary);
