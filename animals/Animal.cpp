@@ -8,6 +8,8 @@ Animal::Animal(string type = "undefined" , string name = "noname", int def = 10 
 	this->attack = att;
 };
 
+
+
 string Animal::getType()
 {
 	return this->type;

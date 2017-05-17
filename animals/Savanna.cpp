@@ -12,7 +12,7 @@ int choose = 1;
 	{
 		cout << "1. Add animal" << endl;
 		cout << "2. Show animals" << endl;
-		cout << "2. Animals Fight Club!" << endl;
+		cout << "3. Animals Fight Club!" << endl;
 		cout << "0. Exit" << endl;
 
 		cin >> choose;
@@ -28,6 +28,11 @@ int choose = 1;
 			case 2 :
 			{
 				showAnimals();
+				break;
+			}
+		    case 3 :
+			{
+				fightAnimals();
 				break;
 			}
 		}
@@ -78,12 +83,22 @@ void Savanna::showAnimals()
 	}
 }
 
-void Savanna::fightAnimals(Animal animal_1, Animal animal_2)
+void Savanna::fightAnimals()
 {
-	/*if (animal_1->type == "Predator")
-	{
-		animal_1->attack >= animal_2->defence;
+	int id_1, id_2;
 
+	cout << "What animal attack? (write ID) ";
+	cin >> id_1;
+	cout << "What animal defend? (write ID) ";
+	cin >> id_2;
 
-	}*/
+	/*if (savanna[ id_1 ].type == "Predator" && savanna[ id_1 ].attack > savanna[ id_2 ].defence )
+	{	
+		savanna[ id_1 ].addToPreyList(savanna[ id_2 ]);
+		cout << " \nFIGHT! " << savanna[ id_1 ].name << " eat " << savanna[ id_2 ].name << endl;
+		cout << "\nIt's pray list of this predator: "<< endl;
+		savanna[ id_1 ].showPreyList();
+	} */
+	
+	cout << "\n\nMatch or escape!\n\n";
 }

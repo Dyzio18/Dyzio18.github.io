@@ -18,8 +18,7 @@ public:
 	void createAnimal();
 	void showAnimals();
 
-	void fightAnimals(Animal animal_1, Animal animal_2);
-
+	void fightAnimals();
 
 	Savanna();
 //	~savanna();

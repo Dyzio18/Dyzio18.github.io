@@ -20,6 +20,9 @@ public:
 	void showAnimal();
 
 	Animal(string type , string name, int def, int att);
+
+	//virtual void addToPreyList(Animal prey);
+//	virtual void showPreyList();
 	//~Animal();
 	
 };
