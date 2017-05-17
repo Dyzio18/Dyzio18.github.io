@@ -10,8 +10,16 @@ using namespace std;
 class Savanna
 {
 public:
+	
+	vector<Animal> savanna;
 
-	static void ui();
+	void ui();
+
+	void createAnimal();
+	void showAnimals();
+
+	void fightAnimals(Animal animal_1, Animal animal_2);
+
 
 	Savanna();
 //	~savanna();

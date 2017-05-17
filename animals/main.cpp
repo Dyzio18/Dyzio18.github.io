@@ -14,8 +14,8 @@ using namespace std;
 
 int main()
 {
-	//Savanna map =  Savanna();
-	Savanna::ui();
+	Savanna* savanna =  new Savanna();
+	savanna->ui();
 
 	cout << "\n\n\n Return success! \n\n\n";
 	return 0;
