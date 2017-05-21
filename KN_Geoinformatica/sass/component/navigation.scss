@@ -1,0 +1,32 @@
+/*
+*	Navigation
+*/
+
+.navbar {
+	height: 120px;
+    border: transparent;
+    background: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 15px;
+    position: relative;
+    background-color: rgba(0,0,0, 0.1);
+
+}
+
+
+.nav__logo {
+	height: 120px;
+	width: 120px;
+}
+
+@media (min-width: 996px) {
+	.right-md {
+		float: right;
+		position: absolute;
+		right: 15px;
+
+	}	
+}

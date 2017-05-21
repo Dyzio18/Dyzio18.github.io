@@ -1,0 +1,43 @@
+/* 
+*  Buttons
+*/
+
+
+.btn{
+	width: 150px;
+	margin: 20px;
+	display:block;
+	padding:10px;
+	border-radius:20px;	
+	text-align: center;
+	border: 2px solid #000;
+
+}
+
+.btn--center{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.btn--white {
+	color:#fff;
+	border: 2px solid #fff;
+
+}
+.btn--white:hover {
+	color:#fff;
+	border: 2px solid #fff;
+}
+
+
+.btn--shadow{
+	transition:  0.3s linear;
+}
+.btn--shadow:hover {
+	cursor:pointer;
+	-webkit-box-shadow: 10px 5px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 10px 5px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 10px 5px 5px 0px rgba(0,0,0,0.3);
+	transition:  0.3s linear;
+}
+

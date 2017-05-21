@@ -1,0 +1,318 @@
+/* Screen width */
+/*Color*/
+/*Dark blue*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+html, body {
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh; }
+
+/*
+*	Simple flex-grid #FlexBox
+*	Two screen width: width < 600px || width > 600px 
+*/
+@media (max-width: 600px) {
+  .flex__col--sm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+
+  .flex__row--sm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+@media (min-width: 600px) {
+  .flex__col--lg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+
+  .flex__row--lg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+.flex__center {
+  justify-content: space-around;
+  align-content: center;
+  align-items: center; }
+
+.flex__center--top {
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+/*
+*	Text property
+*/
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 300; }
+
+.text--white {
+  color: #fff; }
+
+.title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem; }
+
+.subtitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem; }
+
+.subtitle--small {
+  font-size: 1.4rem; }
+
+.text--bold {
+  font-weight: 400; }
+
+.link--normal {
+  text-decoration: none;
+  color: inherit; }
+
+.link--normal:hover {
+  text-decoration: none;
+  color: inherit; }
+
+.title--section {
+  text-align: center;
+  margin: 60px auto 40px auto; }
+
+.paragraph--big {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  word-spacing: 5px; }
+
+.primary_dark {
+  color: #42275a;
+  font-weight: 400; }
+
+/* 
+*  Buttons
+*/
+.btn {
+  width: 150px;
+  margin: 20px;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid #000; }
+
+.btn--center {
+  margin-left: auto;
+  margin-right: auto; }
+
+.btn--white {
+  color: #fff;
+  border: 2px solid #fff; }
+
+.btn--white:hover {
+  color: #fff;
+  border: 2px solid #fff; }
+
+.btn--shadow {
+  transition: 0.3s linear; }
+
+.btn--shadow:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 10px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3s linear; }
+
+/* Others elements 
+*	
+*/
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif; }
+
+.gradient {
+  background: #42275a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #734b6d, #42275a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #734b6d, #42275a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+/*
+*	Navigation
+*/
+.navbar {
+  height: 120px;
+  border: transparent;
+  background: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  padding: 15px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.nav__logo {
+  height: 120px;
+  width: 120px; }
+
+@media (min-width: 996px) {
+  .right-md {
+    float: right;
+    position: absolute;
+    right: 15px; } }
+/*
+*	Jumbotron
+*/
+.jumbotron {
+  min-height: 80vh;
+  border-radius: 0px; }
+
+.jumbotron__desc {
+  text-align: center;
+  width: 45%; }
+  .jumbotron__desc * {
+    margin-top: 15px; }
+
+.jumbotron__img {
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
+
+@media (max-width: 600px) {
+  .jumbotron__desc {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 150px; }
+    .jumbotron__desc * {
+      margin-top: 15px; }
+
+  .jumbotron__img {
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); } }
+/* 
+*	Panel intro
+*/
+.panel__intro {
+  width: 100%;
+  height: 300px;
+  margin: -150px auto 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.panel__item {
+  height: 100%;
+  width: 33.3333%;
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
+  -webkit-box-shadow: -12px -12px 53px -23px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -12px -12px 53px -23px rgba(0, 0, 0, 0.75);
+  box-shadow: -12px -12px 53px -23px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.5s; }
+  .panel__item h3 {
+    font-size: 1.7rem; }
+  .panel__item .fa {
+    font-size: 2.4rem;
+    color: #666; }
+  .panel__item p {
+    font-size: 0.9rem;
+    color: #555; }
+
+.panel__item:hover {
+  background-color: #42275a;
+  color: #fff;
+  transition: 1s; }
+  .panel__item:hover h3 {
+    font-size: 1.7rem; }
+  .panel__item:hover .fa {
+    font-size: 2.4rem;
+    color: #666; }
+  .panel__item:hover p {
+    font-size: 0.9rem;
+    color: #eee; }
+
+@media (max-width: 480px) {
+  .panel__intro {
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    transition: 0.1s; }
+
+  .panel__item {
+    height: 33.333%;
+    width: 100%; } }
+/*
+*	Footer
+*/
+.footer {
+  margin-top: 200px;
+  min-height: 300px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #fff; }
+
+.footer_item {
+  width: 300px; }
+
+/*# sourceMappingURL=style.css.map */

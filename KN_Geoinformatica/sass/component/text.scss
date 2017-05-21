@@ -1,0 +1,56 @@
+/*
+*	Text property
+*/
+
+p{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight: 300;
+}
+
+.text--white{
+	color: #fff;
+}
+
+.title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+}
+.subtitle {
+    font-family: 'Roboto Slab', serif;
+   	font-size: 1.8rem;
+
+}
+.subtitle--small{
+   	font-size: 1.4rem;
+}
+.text--bold{
+	font-weight: 400;
+}
+
+
+.link--normal{
+	text-decoration: none;
+	color: inherit;
+}
+.link--normal:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+.title--section{
+	text-align: center;
+	margin: 60px auto 40px auto;
+}
+
+.paragraph--big {
+	font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    word-spacing: 5px;
+}
+
+.primary_dark {
+	color:$primary_dark;
+	font-weight: 400;
+}

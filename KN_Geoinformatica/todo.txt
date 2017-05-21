@@ -1,0 +1,11 @@
+/*ToDo List*/
+
+**Important
+- Navigacja (menu,nav)
+- Aktualnosci
+- Slider ze zdjeciami
+- teksty na strone (content)
+
+** Details
+- (!!!) Logo ma duza rozdzielczosc (zmienić obrazek)
+

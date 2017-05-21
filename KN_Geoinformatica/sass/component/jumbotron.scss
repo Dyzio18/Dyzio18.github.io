@@ -1,0 +1,43 @@
+/*
+*	Jumbotron
+*/
+
+.jumbotron {
+	min-height: 80vh;
+	border-radius: 0px;
+
+}
+.jumbotron__desc{
+	text-align: center;
+	width:45%;
+	*{
+		margin-top: 15px;
+	}
+}
+
+.jumbotron__img{
+	border-radius: 10px;
+	width: 450px;
+	height: auto;
+	box-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
+}
+
+
+@media (max-width: $md_width) {
+	.jumbotron__desc{
+		text-align: center;
+		width:90%;
+		margin-bottom: 150px;
+		*{
+			margin-top: 15px;
+		}
+	}
+
+	.jumbotron__img{
+		border-radius: 10px;
+		width: 400px;
+		height: 350px;
+		box-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
+	}
+
+}
