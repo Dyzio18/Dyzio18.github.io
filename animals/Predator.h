@@ -17,7 +17,7 @@ public:
 
 	Predator(string type , string name, int def, int att)
 	 : Animal (type, name, def, att){};
-	//~Predator();
+	//~Predator(); /*Destructor*/
 	
 };
 
