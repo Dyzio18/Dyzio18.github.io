@@ -1,0 +1,42 @@
+/* ==================
+		BUTTONS 
+   ==================  */
+
+
+
+
+.btn-sm{
+
+	line-height: 20px; 
+    box-sizing: border-box; /* <- added this */
+    width: auto;
+	min-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	background-color: $blue1;
+	color: $white !important;
+	border: 4px solid $blue0;
+	cursor: pointer;
+}
+
+.btn-lg{
+    line-height: 20px;
+    box-sizing: border-box;
+    width: auto;
+    height: 36px;
+    font-size: 20px;
+    text-align: center;
+	background-color: $blue1;
+    color: #fff !important;
+	border: 4px solid $blue0;
+    cursor: pointer;
+}
+
+.btn{
+	transition:0.3s;
+}
+
+.btn:hover{
+	background: $blue0;
+	transition:0.3s;
+}

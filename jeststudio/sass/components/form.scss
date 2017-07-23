@@ -1,0 +1,23 @@
+.form_column{
+	display:block;
+}
+
+.form_grey{
+	background: transparent;
+	color: $blue2;
+	border: 2px solid $white;
+	padding:3px;
+	padding-left: 5px; 
+	margin-top: 10px;
+	display:block;
+	font-family: SoinSansPro-Medium;
+
+}
+
+.form_grey:focus {
+    border: 2px solid $blue0;
+}
+
+.form_grey:hover {
+    border: 2px solid $blue1;
+}

@@ -1,0 +1,41 @@
+.main_page__header{
+	min-height:100vh;
+	width: 100%;
+	//background-color: $grey;
+	background: url('../img/index/layout1.png') no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.grid__image{
+	background: no-repeat center center ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 300px;
+	width:100%;
+}
+
+.grid__image--col{
+	height: 600px;
+}
+
+.index__grid--1{
+	background-image: url(../img/index/grid_1.png);
+}
+.index__grid--2{
+	background-image: url(../img/index/grid_2.png);
+}
+.index__grid--3{
+	background-image: url(../img/index/grid_3.png);
+}
+.index__grid--4{
+	background-image: url(../img/index/grid_4.png);
+}
+.index__grid--5{
+	background-image: url(../img/index/grid_5.png);
+}

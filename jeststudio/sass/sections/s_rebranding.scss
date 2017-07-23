@@ -1,0 +1,54 @@
+.rebranding_modal{
+	background-color: $grey;
+	height: 95%;
+	width: 95%;
+	padding:15px;
+	border: 10px solid $white;
+	margin: auto;
+}
+.modal_column{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.modal_column--center {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.rebranding_examples{
+	height: 350px;
+}
+
+.rebranding_column{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-content:center;
+	align-items:center;
+	height: 80vh;
+}
+.rebranding_piktogram{
+	max-width: 280px;
+	height: auto;
+}
+
+@media (max-width: $sm_width){
+	.rebranding_column{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: auto;
+	}
+
+
+	.rebranding_modal{
+	background-color: $grey;
+	height: 100%;
+	width: 100%;
+	padding:15px;
+	border: none;
+	margin: auto;
+	}
+
+}

@@ -1,0 +1,38 @@
+/** 
+*	WIDTH - Screen size
+*/
+@media (max-width: 600px) {
+  .flex__col--sm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+
+  .flex__row--sm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+@media (min-width: 600px) {
+  .flex__col--lg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+
+  .flex__row--lg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+.flex__center {
+  justify-content: space-around;
+  align-content: center;
+  align-items: center; }
+
+.flex__center--top {
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+/*# sourceMappingURL=flex.css.map */

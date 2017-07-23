@@ -1,0 +1,95 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3417054, 2017-07-05T18:16:16-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: SoinSansPro-ThinOblique by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/thin-oblique/
+ * 
+ * Webfont: SoinSansPro-MediumOblique by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/medium-oblique/
+ * 
+ * Webfont: SoinSansPro-LightOblique by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/light-oblique/
+ * 
+ * Webfont: SoinSansPro-Roman by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/roman/
+ * 
+ * Webfont: SoinSansPro-Light by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/light/
+ * 
+ * Webfont: SoinSansPro-Bold by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/bold/
+ * 
+ * Webfont: SoinSansPro-Thin by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/thin/
+ * 
+ * Webfont: SoinSansPro-BoldOblique by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/bold-oblique/
+ * 
+ * Webfont: SoinSansPro-Oblique by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/oblique/
+ * 
+ * Webfont: SoinSansPro-Medium by Stawix
+ * URL: https://www.myfonts.com/fonts/stawix/soin-sans-pro/medium/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3417054
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright &#x00A9; 2013 by Stawix Ruecha. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/3423de");*/
+
+@font-face {font-family: 'SoinSansPro-Roman';src: url('webfonts/3423DE_3_0.eot');src: url('webfonts/3423DE_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_3_0.woff2') format('woff2'),url('webfonts/3423DE_3_0.woff') format('woff'),url('webfonts/3423DE_3_0.ttf') format('truetype');}
+@font-face {font-family: 'SoinSansPro-Bold';src: url('webfonts/3423DE_5_0.eot');src: url('webfonts/3423DE_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_5_0.woff2') format('woff2'),url('webfonts/3423DE_5_0.woff') format('woff'),url('webfonts/3423DE_5_0.ttf') format('truetype');}
+@font-face {font-family: 'SoinSansPro-Medium';src: url('webfonts/3423DE_9_0.eot');src: url('webfonts/3423DE_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_9_0.woff2') format('woff2'),url('webfonts/3423DE_9_0.woff') format('woff'),url('webfonts/3423DE_9_0.ttf') format('truetype');}
+
+
+
+
+/*
+@font-face {font-family: 'SoinSansPro-ThinOblique';src: url('webfonts/3423DE_0_0.eot');src: url('webfonts/3423DE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_0_0.woff2') format('woff2'),url('webfonts/3423DE_0_0.woff') format('woff'),url('webfonts/3423DE_0_0.ttf') format('truetype');}
+ 
+  
+ @font-face {font-family: 'SoinSansPro-MediumOblique';src: url('webfonts/3423DE_1_0.eot');src: url('webfonts/3423DE_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_1_0.woff2') format('woff2'),url('webfonts/3423DE_1_0.woff') format('woff'),url('webfonts/3423DE_1_0.ttf') format('truetype');}
+
+  
+@font-face {font-family: 'SoinSansPro-LightOblique';src: url('webfonts/3423DE_2_0.eot');src: url('webfonts/3423DE_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_2_0.woff2') format('woff2'),url('webfonts/3423DE_2_0.woff') format('woff'),url('webfonts/3423DE_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'SoinSansPro-Roman';src: url('webfonts/3423DE_3_0.eot');src: url('webfonts/3423DE_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_3_0.woff2') format('woff2'),url('webfonts/3423DE_3_0.woff') format('woff'),url('webfonts/3423DE_3_0.ttf') format('truetype');}
+ 
+ 
+@font-face {font-family: 'SoinSansPro-Medium';src: url('webfonts/3423DE_9_0.eot');src: url('webfonts/3423DE_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_9_0.woff2') format('woff2'),url('webfonts/3423DE_9_0.woff') format('woff'),url('webfonts/3423DE_9_0.ttf') format('truetype');}
+
+@font-face {font-family: 'SoinSansPro-Light';src: url('webfonts/3423DE_4_0.eot');src: url('webfonts/3423DE_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_4_0.woff2') format('woff2'),url('webfonts/3423DE_4_0.woff') format('woff'),url('webfonts/3423DE_4_0.ttf') format('truetype');}
+
+
+  
+   @font-face {font-family: 'SoinSansPro-Bold';src: url('webfonts/3423DE_5_0.eot');src: url('webfonts/3423DE_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_5_0.woff2') format('woff2'),url('webfonts/3423DE_5_0.woff') format('woff'),url('webfonts/3423DE_5_0.ttf') format('truetype');}
+
+  
+   @font-face {font-family: 'SoinSansPro-Thin';src: url('webfonts/3423DE_6_0.eot');src: url('webfonts/3423DE_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_6_0.woff2') format('woff2'),url('webfonts/3423DE_6_0.woff') format('woff'),url('webfonts/3423DE_6_0.ttf') format('truetype');}
+
+  
+@font-face {font-family: 'SoinSansPro-Thin';src: url('webfonts/3423DE_6_0.eot');src: url('webfonts/3423DE_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_6_0.woff2') format('woff2'),url('webfonts/3423DE_6_0.woff') format('woff'),url('webfonts/3423DE_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'SoinSansPro-BoldOblique';src: url('webfonts/3423DE_7_0.eot');src: url('webfonts/3423DE_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_7_0.woff2') format('woff2'),url('webfonts/3423DE_7_0.woff') format('woff'),url('webfonts/3423DE_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'SoinSansPro-Oblique';src: url('webfonts/3423DE_8_0.eot');src: url('webfonts/3423DE_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_8_0.woff2') format('woff2'),url('webfonts/3423DE_8_0.woff') format('woff'),url('webfonts/3423DE_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'SoinSansPro-Medium';src: url('webfonts/3423DE_9_0.eot');src: url('webfonts/3423DE_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3423DE_9_0.woff2') format('woff2'),url('webfonts/3423DE_9_0.woff') format('woff'),url('webfonts/3423DE_9_0.ttf') format('truetype');}
+ */

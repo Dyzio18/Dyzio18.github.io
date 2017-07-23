@@ -1,0 +1,44 @@
+/* Variable */
+$white: #fff;
+$grey: #e3e3e3;
+$grey_light: #fafafa;
+
+$yellow: #CBFF76;
+$primary: #1B71EF;
+$blue0: #3F87FF; 	// light
+$blue1: #1B71EF;	// normal
+$blue2:#1F3F6E; 	// dark
+
+$text_color: #555;
+
+
+$sm_width:768px;
+
+
+html, body, .main {
+	width: 100%;
+	height: 100vh;
+}
+
+@import "components/main";
+@import "components/flex";
+@import "components/navigation";
+@import "components/typography"; 
+@import "components/color";
+@import "components/buttons";
+@import "components/form";
+@import "components/media"; 		// image, video, media
+@import "components/helpers"; 		// paddings, margins, all helpers
+
+/* Sections */
+@import "sections/s_main_page"; // main_page section
+@import "sections/s_rebranding"; // rebranding section
+@import "sections/s_portfolio"; // portfolio section
+
+
+/* Slick Carousel */
+@import "components/slick-theme";
+@import "components/slick";
+
+@import "components/documentation"; // Special for docs [dev]
+

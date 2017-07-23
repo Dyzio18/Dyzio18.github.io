@@ -1,0 +1,107 @@
+.nav{
+	/*position: absolute;
+	top: 0;
+	background: #ccc;*/
+
+}
+.nav__bar{
+	position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+	background: $grey;
+}
+
+.bar__item{
+	width: 120px;
+	height: 45px;
+	display: inline-block;
+	padding-top: 5px;
+	cursor: pointer;
+
+	.bar__tag{
+		display: inline;
+		width: 80px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
+.nav__bar--left{
+	//margin-left: 20px;
+	img{
+		width: 22px;
+		height: 22px;
+	}
+}
+.nav__bar--logo{
+	position: absolute;
+	top:0;
+	left: 45%;
+	img{
+		height: 40px;
+		width: 80px
+	}
+}
+.nav__bar--right{
+	float: right;
+	img{
+		width: 22px;
+		height: 22px
+	}
+}
+.nav__bar--right:hover{
+
+}
+
+.nav__side{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    z-index: 90;
+    background-color: $grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.nav__item{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content:space-between;
+	align-items:center;
+	width: 200px;
+	height: 40px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 5px 10px;
+	background-color: $grey_light;
+	transition: 0.5s;
+	text-align: right;
+	text-decoration: none;
+
+}
+.nav__icon{
+	float: left;
+	height:30px;
+}
+.nav__item:hover {
+	background-color: $yellow;
+	transition: 0.5s;
+
+}
+
+.nav__left{
+    left: 0;
+}
+.nav__right{
+    right: 0;
+}
+
+
+.main{
+	transition: .5s;
+}
