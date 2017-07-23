@@ -9,7 +9,8 @@ html, body, .main {
   width: 100%; }
 
 .footer {
-  margin-top: 100px;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.22);
+  margin-top: 200px;
   padding-top: 40px;
   padding-bottom: 20px;
   background-color: #1B71EF;
@@ -19,6 +20,7 @@ html, body, .main {
   position: relative; }
 
 .main {
+  transition: .5s;
   padding-left: 0;
   padding-right: 0;
   background-color: #fff; }
@@ -86,16 +88,19 @@ html, body, .main {
   top: 0;
   background: #ccc;*/ }
 
+/* .shadow-header{} */
 .nav__bar {
+  height: 50px;
   position: fixed;
   z-index: 100;
   width: 100%;
-  height: 50px;
   padding: 5px;
-  background: #e3e3e3; }
+  background: #e3e3e3;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22); }
 
 .bar__item {
-  width: 120px;
+  margin-right: 20px;
+  margin-left: 20px;
   height: 45px;
   display: inline-block;
   padding-top: 5px;
@@ -165,15 +170,44 @@ html, body, .main {
 .nav__right {
   right: 0; }
 
-.main {
-  transition: .5s; }
+@media (max-width: 550px) {
+  .bar__item {
+    margin-right: 0px;
+    margin-left: 0px; }
 
-html, body, button, a, p {
+  .nav__bar--logo {
+    position: absolute;
+    transform: scale(0.8);
+    left: 40%; }
+    .nav__bar--logo img {
+      height: 40px;
+      width: 80px; } }
+@media (max-width: 450px) {
+  .nav__bar--logo {
+    position: absolute;
+    transform: scale(0.6);
+    left: 35%; }
+    .nav__bar--logo img {
+      height: 40px;
+      width: 80px; } }
+html, body {
   font-family: SoinSansPro-Roman;
   wrap-word: break-word;
   font-size: 16px;
   color: #555; }
 
+/* Small device */
+@media (max-width: 768px) {
+  body, html {
+    font-size: 14px; }
+
+  .paragraph--big {
+    font-size: 1.2rem;
+    line-height: 1.5rem; } }
+/* Bigger than 1200px */
+@media (min-width: 1200px) {
+  html, body, p, a {
+    font-size: 18px; } }
 p {
   line-height: 1.8rem; }
 
@@ -241,13 +275,6 @@ h6, .h6 {
   margin-right: 5px;
   transform: translateY(-50%); }
 
-@media (max-width: 768px) {
-  body, html {
-    font-size: 14px; }
-
-  .paragraph--big {
-    font-size: 1.2rem;
-    line-height: 1.5rem; } }
 .grey_bg {
   background-color: #e3e3e3; }
 
@@ -359,10 +386,10 @@ h6, .h6 {
   margin-top: 60px; }
 
 .margin_t-xxl {
-  margin-top: 100px; }
+  margin-top: 150px; }
 
 .margin_t-xxxl {
-  margin-top: 200px; }
+  margin-top: 300px; }
 
 /* PADDING */
 .padding_lg {
@@ -383,7 +410,7 @@ padding right */
   padding-right: 60px; }
 
 .padding_r-xxl {
-  padding-right: 100px; }
+  padding-right: 150px; }
 
 /* ============ 
 padding left */
@@ -400,7 +427,7 @@ padding left */
   padding-left: 60px; }
 
 .padding_l-xxl {
-  padding-left: 100px; }
+  padding-left: 150px; }
 
 /* padding top/bottom */
 .padding_t-s {
@@ -428,10 +455,10 @@ padding left */
   padding-bottom: 60px; }
 
 .padding_t-xxl {
-  padding-top: 100px; }
+  padding-top: 150px; }
 
 .padding_b-xxl {
-  padding-bottom: 100px; }
+  padding-bottom: 150px; }
 
 /* Sections */
 .main_page__header {
@@ -517,7 +544,38 @@ padding left */
     border: none;
     margin: auto; } }
 .portfolio_header {
-  background-color: #bbb; }
+  background-color: #bbb;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.portfolio__bar {
+  padding-top: 50px;
+  height: 170px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.danrob_bg {
+  background-image: url(../img/portfolio/danrob/danrob_bg.jpg); }
+
+.header__brand {
+  background-color: none; }
+
+.header__title {
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  border-bottom: 2px solid #fff;
+  font-family: SoinSansPro-Roman;
+  font-weight: 600; }
+
+.header__subtitle {
+  color: #fff;
+  line-height: 1.6; }
 
 /* Slick Carousel */
 /* Slider */
