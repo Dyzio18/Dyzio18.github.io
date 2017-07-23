@@ -1,8 +1,30 @@
-html, body, button, a ,p  { 
+html, body  {
 	font-family: SoinSansPro-Roman;
 	wrap-word: break-word;
 	font-size: 16px;
 	color: $text_color;
+}
+
+/* Small device */
+@media (max-width: $sm_width){
+
+	body,html{
+		font-size: 14px;
+	}
+	.paragraph--big{
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+}
+
+
+/* Bigger than 1200px */
+@media (min-width: 1200px){
+
+	html, body, p, a  {
+		font-size: 18px;
+	}
+
 }
 p{
 	line-height: 1.8rem;
@@ -87,16 +109,3 @@ h6, .h6{
 
 }
 
-
-@media (max-width: $sm_width){
-
-	body,html{
-		font-size: 14px;
-	}
-	.paragraph--big{
-		font-size: 1.2rem;
-		line-height: 1.5rem;
-	}
-
-
-}

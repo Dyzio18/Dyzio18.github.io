@@ -4,7 +4,8 @@
 }
 
 .footer{
-	margin-top: 100px;
+	box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.22);
+	margin-top: 200px;
 	padding-top: 40px;
 	padding-bottom: 20px;
 	background-color: $blue1;
@@ -16,12 +17,12 @@
 }
 
 .main{
-    padding-left: 0;
+	transition: .5s;
+	padding-left: 0;
     padding-right: 0;
 	background-color: $white;
 }
 .main__overlay{
-	//left: -230px;
 		position: absolute;
 		cursor: pointer;
     	z-index: 20;

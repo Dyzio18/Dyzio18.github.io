@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Jest Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css"/>
+
+  <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Roboto+Slab:300,400&amp;subset=latin-ext" rel="stylesheet"> -->
+
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="row"> 
+
+
+
+  <!--LEFT NAV COLUMN -->
+  <div class="doc_nav">
+    <ul>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#typography">Typography</a></li>
+      <li><a href="#colors">Colors</a></li>
+      <li><a href="#buttons">Buttons</a></li>
+      <li><a href="#forms">Forms</a></li>
+      <li><a href="#icons">Icon</a></li>
+      <li><a href="#buttons">Buttons</a></li>
+      <li><a href="#helpers">Helpers</a></li>
+
+    </ul>
+  </div> <!--/ LEFT NAV COLUMN -->
+
+
+  <div class="col col-10"> 
+
+    <section id="intro" class="doc_section">
+      <h2 class="doc_header"> Intro </h2>
+      <p>Simple styleguide</p>
+
+    </section>
+
+    <section id="typography" class="doc_section">
+      <h2 class="doc_header"> Typography </h2>
+      <p>body and paragaphs: <code>font-family: SoinSansPro-Light;</code></p> 
+      <p>headers: <code>  font-family: SoinSansPro-Medium;</code></p> 
+
+      <h1>H1 Header Lorem Ipsum</h1>
+      <h2>H2 Header Lorem Ipsum</h2>
+      <h3>H3 Header Lorem Ipsum</h3>
+      <h4>H4 Header Lorem Ipsum</h4>
+      <h5>H5 Header Lorem Ipsum</h5>
+      <h6>H6 Header Lorem Ipsum</h6>
+      <p> This is paragraph </p>
+
+      <hr>
+      <p class="bold">Pellentesque quis vehicula erat. Suspendisse vitae metus convallis, lobortis. Ściółka, żółć ŻÓŁĆ, kuć, pląsać, węęąąłźźććśśóóó 12345 </p>
+        <pre class="doc_code"> p class="bold"  </pre>
+
+      <p class="text_sm"> Pellentesque quis vehicula erat. Suspendisse vitae metus convallis, lobortis. Ściółka, żółć ŻÓŁĆ, kuć, pląsać, węęąąłźźććśśóóó 12345 </p>
+        <pre class="doc_code"> p class="text_sm"  </pre>
+
+      <p class="text_md"> Pellentesque quis vehicula erat. Suspendisse vitae metus convallis, lobortis. Ściółka, żółć ŻÓŁĆ, kuć, pląsać, węęąąłźźććśśóóó 12345 </p>
+        <pre class="doc_code"> p class="text_md"  </pre>
+
+      <p class="text_lg"> Pellentesque quis vehicula erat. Suspendisse vitae metus convallis, lobortis. Ściółka, żółć ŻÓŁĆ, kuć, pląsać, węęąąłźźććśśóóó 12345 </p>
+        <pre class="doc_code"> p class="text_lg"  </pre>
+
+      <p class="text_xl"> Pellentesque quis vehicula erat. Suspendisse vitae metus convallis, lobortis. Ściółka, żółć ŻÓŁĆ, kuć, pląsać, węęąąłźźććśśóóó 12345 </p>
+        <pre class="doc_code"> p class="text_xl"  </pre>
+
+      <hr>
+      
+      <p class="text_lg bold header_line"> Line in header </p>
+        <pre class="doc_code"> p class="text_lg bold header_line"  </pre>
+
+      <p class="header_line"> Line in paragraph </p>
+        <pre class="doc_code"> p class="header_line"  </pre>
+
+    </section>
+
+    <section id="colors" class="doc_section">
+      <h2 class="doc_header"> Colors </h2>
+      <div class="row doc_colors">
+
+        <div class="doc_box--color grey_bg"> grey </div>
+        <div class="doc_box--color yellow_bg"> yellow </div>
+        <div class="doc_box--color blue0_bg white_cl">blue0</div>
+        <div class="doc_box--color blue1_bg white_cl">blue1</div>
+        <div class="doc_box--color blue2_bg white_cl">blue2</div>
+
+      </div>
+      <h5>Variables:</h5>
+      <p> $white: #fff;<br>
+          $grey: #d3d3d3;<br>
+          $yellow: #CBFF76;<br>
+          $primary: #1B71EF;<br>
+          $blue0: #3F87FF;  // light<br>
+          $blue1: #1B71EF;  // normal<br>
+          $blue2:#1F3F6E;   // dark<br>
+      </p>
+      <h5>HOW TO USE?</h5>
+      <pre class="doc_code"> yellow_bg </pre><p>Background is yellow</p>
+      <pre class="doc_code"> blue0_bg white_cl </pre> <p>Background is blue0 and text is white</p>
+
+    </section>
+
+    <section id="buttons" class="doc_section">
+      <h2 class="doc_header"> Buttons </h2>
+        <button class="btn btn-sm"> Pobierz bezpłatny e-book </button>
+        <code class="doc_code"> btn btn-sm </code> 
+
+        <button class="btn btn-lg"> Pobierz </button>
+        <code class="doc_code"> btn btn-lg </code> 
+
+        <p> class "btn" is responsible for animation </p>
+
+    </section>
+
+    <section id="forms" class="doc_section">
+      <h2 class="doc_header"> Forms </h2>
+      <div class="grey_bg padding_lg">
+        <form class="form_column">
+          <input class="form_grey" type="text" id="value_1" name="value_1" value="imię">
+          <input class="form_grey" type="text" id="value_2" name="value_2" value="nazwisko">
+          <input class="form_grey" type="text" id="value_3" name="value_3" value="email">
+        </form> 
+      </div>     
+    </section>
+
+    <section id="icons" class="doc_section">
+      <h2 class="doc_header"> Icons </h2>
+      <code class="doc_code"> btn </code> 
+
+    </section>
+
+
+
+    <section id="icons" class="doc_section">
+      <h2 class="doc_header"> Icons </h2>
+      <code class="doc_code"> btn </code> 
+
+    </section>
+
+    <section id="helpers" class="doc_section">
+      <h2 class="doc_header"> Helpers </h2>
+      <p>example:</p>
+      <pre class="doc_code">  div class="padding_r-s"  </pre>
+      <p>template:</p>
+      <pre class="doc_code">  class="[padding/margin]_[left/right/top/bottom:l,r,t,b]-[size:s,m,l,xl,xxl]"  </pre>
+      <h4>Paddings:</h4>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="doc_helpers padding_r-s"><div class=" doc_helpers__inside"> padding_r-s </div></div>
+          <div class="doc_helpers padding_r-m"><div class=" doc_helpers__inside"> padding_r-m </div></div>
+          <div class="doc_helpers padding_r-l"><div class=" doc_helpers__inside"> padding_r-l </div></div>
+          <div class="doc_helpers padding_r-xl"><div class=" doc_helpers__inside"> padding_r-xl </div></div>
+          <div class="doc_helpers padding_r-xxl"><div class=" doc_helpers__inside"> padding_r-xxl </div></div>
+
+          <hr>
+
+          <div class="doc_helpers padding_l-s"><div class=" doc_helpers__inside"> padding_l-s </div></div>
+          <div class="doc_helpers padding_l-m"><div class=" doc_helpers__inside"> padding_l-m </div></div>
+          <div class="doc_helpers padding_l-l"><div class=" doc_helpers__inside"> padding_l-l </div></div>
+          <div class="doc_helpers padding_l-xl"><div class=" doc_helpers__inside"> padding_l-xl </div></div>
+          <div class="doc_helpers padding_l-xxl"><div class=" doc_helpers__inside"> padding_l-xxl </div></div>
+
+        </div>
+        <div class="col-lg-4">
+          <div class="doc_helpers padding_t-s"><div class=" doc_helpers__inside"> padding_t-s </div></div>
+          <div class="doc_helpers padding_t-m"><div class=" doc_helpers__inside"> padding_t-m </div></div>
+          <div class="doc_helpers padding_t-l"><div class=" doc_helpers__inside"> padding_t-l </div></div>
+          <div class="doc_helpers padding_t-xl"><div class=" doc_helpers__inside"> padding_t-xl </div></div>
+          <div class="doc_helpers padding_t-xxl"><div class=" doc_helpers__inside"> padding_t-xxl </div></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="doc_helpers padding_b-s"><div class=" doc_helpers__inside"> padding_b-s </div></div>
+          <div class="doc_helpers padding_b-m"><div class=" doc_helpers__inside"> padding_b-m </div></div>
+          <div class="doc_helpers padding_b-l"><div class=" doc_helpers__inside"> padding_b-l </div></div>
+          <div class="doc_helpers padding_b-xl"><div class=" doc_helpers__inside"> padding_b-xl </div></div>
+          <div class="doc_helpers padding_b-xxl"><div class=" doc_helpers__inside"> padding_b-xxl </div></div>
+        </div>
+
+      </div>    
+    </section>
+
+
+  </div><!--/ RIGHT SIDE -->
+  </div><!--/ROW-->
+</div>
+</body>
+</html>
+
+
+<!--
+https://uigradients.com/#Jonquil //Gradient
+-->

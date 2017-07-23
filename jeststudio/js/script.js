@@ -25,15 +25,16 @@
         closeRightNav();
         closeLeftNav();
     })
-/* TODO
-- toogle class dla nav
-- close po wcisnieciu ponownym ikony menu/oferta
-- right menu do zmiany
-- lepszy skrypt
-- dodac zmienne np. main zamiast ciagle brac o nowa
- */
-//})
 
+/*
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 30) {
+        $('.nav__bar').addClass('shadow-header');
+    }
+    else {
+        $('.nav__bar').removeClass('shadow-header');
+    }
+});*/
 
 
 
