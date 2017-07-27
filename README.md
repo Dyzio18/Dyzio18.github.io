@@ -8,14 +8,13 @@ It's my working directory with projects
 + [Live](https://dyzio18.github.io/quiz_app/)
 + [Code](https://github.com/Dyzio18/quiz_app)
 
+
 ### Website 
 #### KN GeosInformatica  
 + [Live](https://dyzio18.github.io/KN_Geosinformatica/)
 + [Code](https://github.com/Dyzio18/quiz_app)
 
-
-### Website
 #### JESTstudio  
 + [docs](https://dyzio18.github.io/jeststudio/_documentation.html)
 + [index](https://dyzio18.github.io/jeststudio)
-+ [portfolio_page] (https://dyzio18.github.io/jeststudio/portfolio_template.html) 
++ [portfolio_page](https://dyzio18.github.io/jeststudio/portfolio_template.html) 
