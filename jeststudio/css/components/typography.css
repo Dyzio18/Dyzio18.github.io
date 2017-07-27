@@ -2,15 +2,15 @@
 Error: Undefined variable: "$text_color".
         on line 5 of C:\Users\PatrykNizio\Desktop\my\_JESTstudio\jeststudio\sass\components\typography.scss
 
-1: html, body, button, a ,p  { 
+1: html, body  {
 2: 	font-family: SoinSansPro-Roman;
 3: 	wrap-word: break-word;
 4: 	font-size: 16px;
 5: 	color: $text_color;
 6: }
-7: p{
-8: 	line-height: 1.8rem;
-9: }
+7: 
+8: /* Small device *\/
+9: @media (max-width: $sm_width){
 10: 
 
 Backtrace:
@@ -61,4 +61,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$text_color\".\A         on line 5 of C:\Users\PatrykNizio\Desktop\my\_JESTstudio\jeststudio\sass\components\typography.scss\A \A 1: html, body, button, a ,p  { \A 2: 	font-family: SoinSansPro-Roman;\A 3: 	wrap-word: break-word;\A 4: 	font-size: 16px;\A 5: 	color: $text_color;\A 6: }\A 7: p{\A 8: 	line-height: 1.8rem;\A 9: }\A 10: "; }
+  content: "Error: Undefined variable: \"$text_color\".\A         on line 5 of C:\Users\PatrykNizio\Desktop\my\_JESTstudio\jeststudio\sass\components\typography.scss\A \A 1: html, body  {\A 2: 	font-family: SoinSansPro-Roman;\A 3: 	wrap-word: break-word;\A 4: 	font-size: 16px;\A 5: 	color: $text_color;\A 6: }\A 7: \A 8: /* Small device */\A 9: @media (max-width: $sm_width){\A 10: "; }
