@@ -15,6 +15,6 @@ It's my working directory with projects
 + [Code](https://github.com/Dyzio18/quiz_app)
 
 #### JESTstudio  
-+ [docs](https://dyzio18.github.io/jeststudio/_documentation.html)
++ [docs](https://dyzio18.github.io/jeststudio/documentation.html)
 + [index](https://dyzio18.github.io/jeststudio)
 + [portfolio_page](https://dyzio18.github.io/jeststudio/portfolio_template.html) 
