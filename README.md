@@ -8,6 +8,10 @@ It's my working directory with projects
 + [Live](https://dyzio18.github.io/quiz_app/)
 + [Code](https://github.com/Dyzio18/quiz_app)
 
+#### 8bit Youtube
++ [Live](https://dyzio18.github.io/8bitYoutube)
++ [Code](https://github.com/Dyzio18/youtube_client)
+
 
 ### Website 
 #### KN GeosInformatica  
