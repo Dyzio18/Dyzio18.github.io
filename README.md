@@ -2,6 +2,8 @@
 It's my working directory with projects 
 
 [Visit my website](http://patryk-nizio.pl/)
+
+
 [GITHUB](https://github.com/Dyzio18)
 
 ### App
