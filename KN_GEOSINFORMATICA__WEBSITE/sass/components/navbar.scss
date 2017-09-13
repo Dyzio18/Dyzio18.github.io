@@ -1,0 +1,24 @@
+/* Navbar Component */
+.navbar {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #111111;
+  a {
+    color: #000;
+  }
+  a:hover {
+    color: #5d1769;
+    border-radius: 50px;
+  }
+
+  .navbar-toggle {
+    background-color: #5d1769;
+    .icon-bar{
+      background-color: #e6e6e6;
+    }
+  }
+
+  /*-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3); */
+   /*box-shadow: 0 1px 2px rgba(0,0,0,0.3); */
+}
