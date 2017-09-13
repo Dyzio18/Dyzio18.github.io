@@ -1,7 +1,8 @@
 # Dyzio18.github.io 
-It's my working directory with projects
+It's my working directory with projects 
 
 [Visit my website](http://patryk-nizio.pl/)
+[GITHUB](https://github.com/Dyzio18)
 
 ### App
 #### Quiz App  
@@ -15,8 +16,8 @@ It's my working directory with projects
 
 ### Website 
 #### KN GeosInformatica  
-+ [Live](https://dyzio18.github.io/KN_Geosinformatica/)
-+ [Code](https://github.com/Dyzio18/quiz_app)
++ [Live](https://dyzio18.github.io/KN_GEOSINFORMATICA__WEBSITE)
++ [Code](https://github.com/Dyzio18/KN_Geosinformatica)
 
 #### JESTstudio  
 + [docs](https://dyzio18.github.io/jeststudio/documentation.html)
