@@ -1,113 +1,159 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="pl">
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>KN Geosinformatica</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Roboto+Slab:300,400&amp;subset=latin-ext" rel="stylesheet"> 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
- 	<header class="gradient">
-  <nav class="navbar">
-    <img class="nav__logo" src="img/logo.png">
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">Geosinformatica</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projekty</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Info
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Archiwum</a>
+                    <a class="dropdown-item" href="#">Galeria</a>
+                    <a class="dropdown-item" href="http://www.informatica.agh.edu.pl/_PLIKI/Statut.pdf">Statut</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Panel</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">O nas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 
-  </nav>
-
-    <div class="jumbotron gradient">
-      <div class="container flex__row--lg flex__col--sm flex__center">
-        <div class=" jumbotron__card">
-          <img class="jumbotron__img" src="img/jumbotron_dron2.jpg">
+<header class="header"  id="particles-js">
+    <div class="container">
+        <div class="header__introduction">
+            <div>
+                <h1 class="header__title"> GeosInformatica </h1>
+                <h2 class="header__subtitle"> Koło Naukowe </h2>
+                <p style="font-size:0.7em;">Akademia Górniczo-Hutnicza w Krakowie</p>
+            </div>
         </div>
-        <div class="jumbotron__desc">
-          <h1 class="title text--white  text--bold">Projekt "NORD"</h1>
-          <h2 class="subtitle--small text--white " > Latająca platforma do skanningu 3D</h2>
-          <p class="text--white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie enim ac congue mollis. Duis sodales nunc vitae nisl vestibulum, non fermentum dolor eleifend. </p>
-          <a  href="#"  class="btn btn--white btn--center btn--shadow"> Zobacz więcej  </a>
-        </div>    
-      </div>
+        <!-- Call to action (arrow to bottom)  -->
+        <div class="header__arrow--bottom"><i class="fa fa-chevron-down fa-2x callToAction__bounce" aria-hidden="true"></i>
+        </div>
     </div>
-  </header>
-    <div class="container  ">
-    <div class="row panel__intro ">
+</header>
 
-      <div class="panel__item"> 
-        <i class="fa fa-diamond " aria-hidden="true"></i> 
-        <h3 class="title"> Pasja </h3> 
-        <p> Najlepszy sposób żebyś mógł spędzić ten czas. Studia to nie tylko wykłady i ćwiczenia. Zacznij robic coś więcej!</p>
-      </div>
-
-      <div class="panel__item"> 
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-        <h3 class="title"> Rozwój </h3> 
-        <p>Rozwiajamy naszych członków poprzez ciekawe projekty oraz warsztaty </p>
-      </div>
-
-      <div class="panel__item"> 
-        <i class="fa fa-users " aria-hidden="true"></i> 
-        <h3 class="title"> Ludzie </h3> 
-        <p> Razem spędzamy dobrze czas nie tylko na uczelni ale i poza nią. Orgaznizujemy wyjścia integracyjne i lubimy poznawać nowych ludzi</p>
-      </div>
-
-    </div>
-    </div> 
-  <section>
+<section>
     <div class="container">
-        <h2 class="title title--section">O nas</h2>
-        <p class="paragraph--big"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie enim ac congue mollis. Duis sodales nunc vitae nisl vestibulum, non fermentum dolor eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie enim ac congue mollis. Duis sodales nunc vitae nisl vestibulum, non fermentum dolor eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie enim ac congue mollis. Duis sodales nunc vitae nisl vestibulum, non fermentum dolor eleifend. </p>
-      
-    </div>
-  </section>
+        <div class="row">
+            <h3 class="title" id="AboutUs">O nas</h3>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img  src="img/example.svg" class="mx-auto img-fluid" alt="Our team" >
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                        Proin fringilla quis nibh eu posuere. Etiam eget velit non odio feugiat vehicula. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                        Proin fringilla quis nibh </p>
+                    <p>Lorem ipsum dolor sit amet,  adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                        amet, consectetur adipiscing elit.</p>
+                    <br><br><br>
+                    <button type="button" class="btn btn-outline-secondary float-right">Secondary</button>
 
-  <section>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
     <div class="container">
-        <h2 class="title title--section">Projekty</h2>
-        <p class="paragraph--big"> <span class="primary_dark "> Lorem ipsum </span> dolor sit amet, consectetur adipiscing elit. Integer molestie enim ac congue mollis. Duis sodales nunc vitae nisl vestibulum, non fermentum dolor eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie enim ac congue mollis. Duis sodales nunc vitae nisl vestibulum, non fermentum dolor eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie enim ac congue mollis. Duis sodales nunc vitae nisl vestibulum, non fermentum dolor eleifend. </p>
-      
+        <div class="row">
+            <h3 class="title">Projekty</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                Proin fringilla quis nibh eu posuere. Etiam eget velit non odio feugiat vehicula. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. Morbi laoreet est non ipsum dapibus, ut rhoncus sem elementum. Suspendisse sit
+                amet tincidunt nisl, sit amet laoreet tellus. Suspendisse sit amet enim sed metus consectetur rhoncus ut
+                eleifend mi. Sed non gravida felis. Integer scelerisque vel magna et porttitor. Vestibulum quam purus,
+                cursus eu velit et, finibus commodo lorem. Duis laoreet faucibus tortor. Sed hendrerit bibendum neque,
+                et malesuada tortor ornare eu. Sed id ligula hendrerit, molestie magna tempus, luctus justo. Aenean sed
+                tortor euismod, congue lorem at, bibendum nisi.</p>
+        </div>
     </div>
-  </section>
+</section>
 
-
-
-
-
-<footer class="footer gradient">
-  <div class="container flex__row--lg flex__row--lg flex__center">
-    <div class="footer_item">
-      <h4 class="subtitle"> O nas </h4>
-      <p>Lorem ipsum Lorem Lorem ipsum Lorem Lorem ipsum Lorem Lorem ipsum Lorem </p>
-     </div>
-    <div class="footer_item">
-      <h4 class="subtitle"> Linki </h4>
-      <p>Lorem ipsum Lorem Lorem ipsum Lorem Lorem ipsum Lorem Lorem ipsum Lorem </p>
-    </div>    
-    <div class="footer_item">
-      <h4 class="subtitle"> Kontakt </h4>
-      <p>Lorem ipsum Lorem Lorem ipsum Lorem Lorem ipsum Lorem Lorem ipsum Lorem </p>
+<section>
+    <div class="container">
+        <div class="row">
+            <h3 class="title">Aktualności</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                Proin fringilla quis nibh eu posuere. Etiam eget velit non odio feugiat vehicula. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. Morbi laoreet est non ipsum dapibus, ut rhoncus sem elementum. Suspendisse sit
+                amet tincidunt nisl, sit amet laoreet tellus. Suspendisse sit amet enim sed metus consectetur rhoncus ut
+                eleifend mi. Sed non gravida felis. Integer scelerisque vel magna et porttitor. Vestibulum quam purus,
+                cursus eu velit et, finibus commodo lorem. Duis laoreet faucibus tortor. Sed hendrerit bibendum neque,
+                et malesuada tortor ornare eu. Sed id ligula hendrerit, molestie magna tempus, luctus justo. Aenean sed
+                tortor euismod, congue lorem at, bibendum nisi.</p>
+        </div>
     </div>
+</section>
 
-  </div>  
-</footer >
+<footer class="footer">
+    <div class="footer__borderBox">
+        <div class="row">
+            <div class="col-lg-5 col-md-4 col-sm-12 ">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                    Proin fringilla quis nibh eu posuere.</p>
+            </div>
 
+            <div class="col-lg-3 col-md-4 col-sm-12 ml-auto ">
+                <ul class="list-unstyled">
+                    <li>EXample np.1 </li>
+                    <li>EXample np.2 </li>
+                    <li>EXample np.3 </li>
+                    <li>EXample np.4 </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <ul class="list-unstyled">
+                    <li>EXample np.1 </li>
+                    <li>EXample np.2 </li>
+                    <li>EXample np.3 </li>
+                    <li>EXample np.4 </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
-    <script src="js/jquery/dist/jquery.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="js/script.js"></script>
+<script>
 
-  </body>
+</script>
+<script src="js/script.js">
+</script>
+</body>
 </html>
-
-
-<!--
-https://uigradients.com/#Jonquil //Gradient
-
-
-
-
--->

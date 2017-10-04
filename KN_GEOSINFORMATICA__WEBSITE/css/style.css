@@ -21,11 +21,23 @@ canvas {
 
 /* Typography Component */
 .title {
-  font-weight: bold;
-  color: #c0c0c0;
-  text-transform: uppercase;
-  letter-spacing: 20px;
-  font-size: 3em; }
+  color: #333;
+  letter-spacing: 16px;
+  font-size: 3em;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #333;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media screen and (max-width: 768px) {
+  .title {
+    letter-spacing: 10px;
+    font-size: 2em; } }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto; }
 
 /* Navbar Component */
 .navbar {
@@ -66,6 +78,11 @@ canvas {
     color: #2e3133;
     font-size: 2em; }
 
+@media screen and (max-width: 768px) {
+  .header__introduction .header__title {
+    font-size: 1.8em; }
+  .header__introduction .header__subtitle {
+    font-size: 1.2em; } }
 .header__arrow--bottom {
   width: 42px;
   height: 72px;
@@ -120,5 +137,10 @@ canvas {
     -ms-transform: translateY(15px);
     -webkit-transform: translateY(15px);
     transform: translateY(15px); } }
+.footer {
+  background-color: #001F3F;
+  color: #fff;
+  padding: 20px;
+  margin-top: 100px; }
 
 /*# sourceMappingURL=style.css.map */

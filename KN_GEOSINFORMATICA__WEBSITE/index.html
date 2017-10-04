@@ -4,50 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>KN Geosinformatica</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 
-<nav class="navbar ">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-                GeosInformatica
-            </a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a  href="#">Projekty</a></li>
-                <li><a  href="#">O nas</a></li>
-                <li><a  href="#">Aktualności</a></li>
-                <li><a  href="#">Kontakt</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">Info <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a  href="#">Archiwum</a></li>
-                        <li><a  href="#">Galeria</a></li>
-                        <li><a  href="http://www.informatica.agh.edu.pl/_PLIKI/Statut.pdf">Statut</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a  href="#">Panel</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">Geosinformatica</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projekty</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Info
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Archiwum</a>
+                    <a class="dropdown-item" href="#">Galeria</a>
+                    <a class="dropdown-item" href="http://www.informatica.agh.edu.pl/_PLIKI/Statut.pdf">Statut</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Panel</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">O nas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 
@@ -61,7 +54,7 @@
             </div>
         </div>
         <!-- Call to action (arrow to bottom)  -->
-        <div id="sss" class="header__arrow--bottom"><i class="fa fa-chevron-down fa-2x callToAction__bounce" aria-hidden="true"></i>
+        <div class="header__arrow--bottom"><i class="fa fa-chevron-down fa-2x callToAction__bounce" aria-hidden="true"></i>
         </div>
     </div>
 </header>
@@ -70,15 +63,23 @@
     <div class="container">
         <div class="row">
             <h3 class="title" id="AboutUs">O nas</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
-                Proin fringilla quis nibh eu posuere. Etiam eget velit non odio feugiat vehicula. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos. Morbi laoreet est non ipsum dapibus, ut rhoncus sem elementum. Suspendisse sit
-                amet tincidunt nisl, sit amet laoreet tellus. Suspendisse sit amet enim sed metus consectetur rhoncus ut
-                eleifend mi. Sed non gravida felis. Integer scelerisque vel magna et porttitor. Vestibulum quam purus,
-                cursus eu velit et, finibus commodo lorem. Duis laoreet faucibus tortor. Sed hendrerit bibendum neque,
-                et malesuada tortor ornare eu. Sed id ligula hendrerit, molestie magna tempus, luctus justo. Aenean sed
-                tortor euismod, congue lorem at, bibendum nisi.</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img  src="img/example.svg" class="mx-auto img-fluid" alt="Our team" >
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                        Proin fringilla quis nibh eu posuere. Etiam eget velit non odio feugiat vehicula. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                        Proin fringilla quis nibh </p>
+                    <p>Lorem ipsum dolor sit amet,  adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                        amet, consectetur adipiscing elit.</p>
+                    <br><br><br>
+                    <button type="button" class="btn btn-outline-secondary float-right">Secondary</button>
+
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -116,6 +117,34 @@
         </div>
     </div>
 </section>
+
+<footer class="footer">
+    <div class="footer__borderBox">
+        <div class="row">
+            <div class="col-lg-5 col-md-4 col-sm-12 ">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                    Proin fringilla quis nibh eu posuere.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12 ml-auto ">
+                <ul class="list-unstyled">
+                    <li>EXample np.1 </li>
+                    <li>EXample np.2 </li>
+                    <li>EXample np.3 </li>
+                    <li>EXample np.4 </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <ul class="list-unstyled">
+                    <li>EXample np.1 </li>
+                    <li>EXample np.2 </li>
+                    <li>EXample np.3 </li>
+                    <li>EXample np.4 </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/popper.min.js"></script>
