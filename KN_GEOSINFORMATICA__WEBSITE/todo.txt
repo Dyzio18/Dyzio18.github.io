@@ -1,5 +1,2 @@
-<Nav>
-* Dokończyc nawigacje
-
-<Header>
-* W tle moga być 0 i 1 (spadać i sie obracać powoli)
+<Projekty>
+ [] Panele / okna - projeków

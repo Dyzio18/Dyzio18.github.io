@@ -9,6 +9,7 @@ $black: #111111;
 $gray: #AAAAAA;
 $blue:  #0074D9;
 $navy:  #001F3F;
+$navyDark: #00004d;
 $red:     #FF4136;
 $maroon:  #85144B;
 
@@ -24,4 +25,5 @@ $maroon:  #85144B;
 @import "layout/header";
 @import "layout/footer";
 @import "components/button";
+@import "components/projects";
 

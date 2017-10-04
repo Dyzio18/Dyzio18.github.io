@@ -5,13 +5,20 @@
   color: $darkTxt;
   letter-spacing: 16px;
   font-size:3em;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom:20px;
   padding-bottom:5px;
+  padding-top:75px;
   border-bottom:2px solid $darkTxt;
   margin-right:auto;
   margin-left:auto;
+
 }
+/*
+.title:hover {
+  border-bottom:5px solid $red;
+  margin-bottom:17px;
+}*/
 
 @media screen and (max-width: $sm){
   .title {

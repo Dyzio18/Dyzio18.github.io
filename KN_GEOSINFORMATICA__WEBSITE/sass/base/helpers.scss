@@ -2,3 +2,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (min-width: $sm) {
+
+  .card__margin--xl{
+    margin-top:520px;
+  }
+
+  .card__margin--l{
+    margin-top:300px;
+  }
+
+  .card__margin--m{
+    margin-top:100px;
+  }
+}

@@ -1,8 +1,18 @@
-$(".header__arrow--bottom").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#AboutUs").offset().top
-    }, 2000);
-    return false;
+$(document).ready(function() {
+
+    // Scroll to first section
+    $(".header__arrow--bottom").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#AboutUs").offset().top
+        }, 2000);
+        return false;
+    });
+
+    // Return current year in footer
+    document.getElementById('currentYear').innerHTML = (new Date()).getFullYear();
+
+
+
 });
 
 
