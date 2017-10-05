@@ -11,33 +11,36 @@
 </head>
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand" href="#">Geosinformatica</a>
+<nav id="mainNavbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="index.html">Geosinformatica</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse " id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Projekty</a>
+                <a id="nav__to__AboutUs"  class="nav-link" href="index.html#AboutUs">O nas</a>
+            </li>
+            <li class="nav-item">
+                <a id="nav__to__Project" class="nav-link" href="index.html#Projects">Projekty</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Info
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Archiwum</a>
-                    <a class="dropdown-item" href="#">Galeria</a>
+                    <a class="dropdown-item" href="http://www.informatica.agh.edu.pl/index.php/category/newsy/">Archiwum</a>
+                    <a class="dropdown-item" href="https://get.google.com/albumarchive/105194706630229846053?source=pwa">Galeria</a>
                     <a class="dropdown-item" href="http://www.informatica.agh.edu.pl/_PLIKI/Statut.pdf">Statut</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Panel</a>
+                    <a class="dropdown-item" href="!0" data-toggle="modal" data-target="#adminModal">Panel</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">O nas</a>
+                <a id="nav__to__News" class="nav-link" href="index.html#News">Aktualności</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
+                <a id="nav__to__Contact"  class="nav-link" href="#Contact">Kontakt</a>
             </li>
         </ul>
     </div>
@@ -68,7 +71,7 @@
                     <img  src="img/logo_lg.png" class="mx-auto img-fluid" alt="Our team" >
                 </div>
                 <div class="col-lg-6 col-md-8 col-sm-12 pt-5">
-                    <p>Koło naukowe Geos Informatica istnieje od 2002 roku i działa przy Katedrze Geoinformatyki i Informatyki Stosowanej na Wydziale  Geologii, Geofizyki i                              ochrony Środowiska, Akademii Górniczo - Hutniczej w Krakowie.
+                    <p>Koło naukowe Geos Informatica istnieje od 2002 roku i działa przy Katedrze Geoinformatyki i Informatyki Stosowanej na Wydziale  Geologii, Geofizyki i ochrony Środowiska, Akademii Górniczo - Hutniczej w Krakowie.
                     </p>
                     <p>Wybrana działalność koła:</p>
                     <ul class="">
@@ -91,7 +94,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h3 class="title">Projekty</h3>
+                <h3 id="Projects" class="title">Projekty</h3>
             </div>
         </div>
         <div class="row">
@@ -99,26 +102,30 @@
 
                 <!-- Card element -->
                 <div class="card border-light bg-light card__margin--m" data-entrance="from-left">
-                    <img class="card-img-top" src="img/example.svg" alt="Card image cap">
+                    <img class="card-img-top" src="img/icons/drone.svg" alt="Dron z kamerą">
                     <div class="card-body">
                         <h4 class="card-title text-center">Projekt "Nord"</h4>
                         <h5 class="card-subtitle mb-2 text-center">Dron do scanningu 3D</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
-                                             Proin fringilla</p>
+                        <p class="card-text">
+                            Projekt obecnie jest w fazie rozwoju.
+                            Tworzymy drona do skanowania obiektów przestrzennych i tworzenia trójwymiarowego modelu.
+                        </p>
                     </div>
                     <div class="card-footer border-info text-right">
-                        <a href="#" class="btn btn-info ">Więcej</a>
+                        <a href="project-nord.html" class="btn btn-info ">Więcej</a>
                     </div>
                 </div><!--/ Card element -->
 
                 <!-- Card element -->
                 <div class="card border-light bg-light card__margin--l" data-entrance="from-left">
-                    <img class="card-img-top" src="img/example.svg" alt="Card image cap">
+                    <img class="card-img-top" src="img/icons/laptop.svg" alt="Laptop">
                     <div class="card-body">
                         <h4 class="card-title text-center">Projekt "Nord"</h4>
                         <h5 class="card-subtitle mb-2 text-center">Dron do scanningu 3D</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
-                                             Proin fringilla</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
+                            Proin fringilla
+                        </p>
                     </div>
                     <div class="card-footer border-info text-right">
                         <a href="#" class="btn btn-info ">Więcej</a>
@@ -130,15 +137,19 @@
 
                 <!-- Card element -->
                 <div class="card border-light bg-light card__margin--xl" data-entrance="from-right">
-                    <img class="card-img-top" src="img/example.svg" alt="Card image cap">
+                    <img class="card-img-top" src="img/icons/ambulance.svg" alt="Karetka pogotowia">
                     <div class="card-body">
-                        <h4 class="card-title text-center">Projekt "Nord"</h4>
-                        <h5 class="card-subtitle mb-2 text-center">Dron do scanningu 3D</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
-                                             Proin fringilla</p>
+                        <h4 class="card-title text-center">System dla karetek</h4>
+                        <h5 class="card-subtitle mb-2 text-center">Optymalizacja czasu dojazdów ambulansów</h5>
+                        <p class="card-text">
+                            Dzięki systemowi geoinformatycznemu skróci się czas dojazdu karetek pogotowia ratunkowego do pacjentów.
+                            Jest to pierwsza taka aplikacja w Polsce.
+                        </p>
                     </div>
                     <div class="card-footer border-info text-right">
-                        <a href="#" class="btn btn-info ">Więcej</a>
+                        <a href="http://www.agh.edu.pl/blog-naukowy/info/article/karetki-dojada-szybciej-blog-naukowy/"
+                           class="float-left btn btn-link"> Artykuł</a>
+                        <a href="#" class="btn btn-info">Więcej</a>
                     </div>
                 </div><!--/ Card element -->
 
@@ -151,7 +162,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-right">
-                <h3 class="title">Aktualności</h3>
+                <h3 id="News" class="title">Aktualności</h3>
             </div>
         </div>
         <div class="row">
@@ -168,10 +179,12 @@
     </div>
 </section>
 
-<section>
+
+
+<section class="margin__bottom--m">
     <div class="container">
         <div class="row">
-            <h3 class="title" id="contact">Kontakt</h3>
+            <h3 class="title" id="Contact">Kontakt</h3>
             <div class=" col-lg-12 col-md-12 col-sm-12">
                 <div class="mx-auto col-lg-6 col-md-8 col-sm-12">
                     <form id="contact-form" method="post" action="   " role="form">
@@ -204,38 +217,103 @@
     </div>
 </section>
 
+<!-- Admin Modal -->
+<div class="modal fade" id="adminModal" tabindex="-1" role="dialog" aria-labelledby="adminModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="adminModalLabel">Logowanie - Panel administracyjny</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group col-md-12">
+                        <label for="inputEmailAdmin" class="col-form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmailAdmin" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                    <button type="button" class="btn btn-secondary ml-3" data-dismiss="modal">Anuluj</button>
+                    <button type="submit" class="btn btn-primary float-right mr-3">Zaloguj</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p class="text-info small"> Aby uzyskać dostęp do panelu skontaktuj się z administratorem</p>
+            </div>
+        </div>
+    </div>
+</div> <!--/ Admin Modal -->
+
+<!-- Sesje KN -->
+<div class="modal fade" id="sesionModal" tabindex="-1" role="dialog" aria-labelledby="sesionModalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="sesionModalTitle">Spotkania KN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="text-danger">Obecnie nie ustalono terminu spotkań</p>
+                <p>Spotkania koła odbywają&nbsp;się&nbsp;w
+                    <span class="font-weight-bold">_______</span> <br>
+                   w sali <span class="font-weight-bold"> ___ o&nbsp;godzinie __:__ </span>
+                   co&nbsp;2&nbsp;tygodnie
+                </p>
+                <p>Serdecznie zapraszamy wszystkich zainteresowanych !</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+    </div>
+</div><!--/ Sesje KN -->
+
 <footer class="footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-4 col-sm-12 ">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ipsum nec lorem luctus vestibulum.
-                   Proin fringilla quis nibh eu posuere.</p>
+                <p>
+                    <span class="font-weight-bold "> Geosinformatica </span> - Koło naukowe studentów informatyki stosowanej działającej na wydziale WGGiOŚ, Akademii Górniczo-Hutniczej w Krakowie
+                </p>
+                <p class="">
+                    Śledź nasz fanpage na <a class="font-weight-bold text-info" target="_blank" href="https://www.facebook.com/GeosInformatica">facebooku</a>
+                </p>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12 ml-auto ">
                 <p class="border border-top-0 border-right-0 border-left-0 border-white">Mapa strony:</p>
                 <ul class="list-unstyled">
-                    <li><a href="#">Projekty</a></li>
-                    <li><a href="#">Aktualności</a></li>
-                    <li><a href="#">Zarząd i członkowie</a></li>
-                    <li><a href="#">Sesje KN</a></li>
+                    <li><a href="index.html#Projects">Projekty</a></li>
+                    <li><a href="index.html#News">Aktualności</a></li>
+                    <li><a href="members.html">Zarząd i członkowie</a></li>
+                    <li><a href="!00" data-toggle="modal" data-target="#sesionModal">Sesje KN</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12">
                 <p>&nbsp;</p>
                 <ul class="list-unstyled">
                     <li><a href="http://home.agh.edu.pl/~geoinf/pl/main/">Strona Katedry</a></li>
-                    <li><a href="http://www.agh.edu.pl/">Strona AGH</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Panel administracyjny</a></li>
+                    <li><a href="http://www.informatica.agh.edu.pl/index.php/category/newsy/">Archiwum</a></li>
+                    <li><a href="https://get.google.com/albumarchive/105194706630229846053?source=pwa">Galeria</a></li>
+                    <li><a href="#!0" data-toggle="modal" data-target="#adminModal">Panel administracyjny</a></li>
                 </ul>
             </div>
         </div>
-
     </div>
 </footer>
-<div class="row footer__copyright">
-    <div class="mx-auto">
-        <p>Copyright © <span id="currentYear"> </span> Geosinformatica</p>
+<div class="container-fluid footer__copyright">
+    <div class="row">
+        <div class="mx-auto text-center">
+            <p>Copyright © <span id="currentYear"> </span> Geosinformatica</p>
+            <p>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">
+                www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+            </p>
+        </div>
     </div>
 </div>
 
