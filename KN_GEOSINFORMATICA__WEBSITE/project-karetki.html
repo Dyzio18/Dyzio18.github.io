@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KN Geosinformatica</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<nav id="mainNavbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="index.html">Geosinformatica</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a id="nav__to__AboutUs"  class="nav-link" href="index.html#AboutUs">O nas</a>
+            </li>
+            <li class="nav-item">
+                <a id="nav__to__Project" class="nav-link" href="index.html#Projects">Projekty</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Info
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="http://www.informatica.agh.edu.pl/index.php/category/newsy/">Archiwum</a>
+                    <a class="dropdown-item" href="https://get.google.com/albumarchive/105194706630229846053?source=pwa">Galeria</a>
+                    <a class="dropdown-item" href="http://www.informatica.agh.edu.pl/_PLIKI/Statut.pdf">Statut</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="!0" data-toggle="modal" data-target="#adminModal">Panel</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a id="nav__to__News" class="nav-link" href="index.html#News">Aktualności</a>
+            </li>
+            <li class="nav-item">
+                <a id="nav__to__Contact"  class="nav-link" href="#Contact">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- PROJECT ---------------------------------------------------------------------------------------- -->
+
+
+<div class="project container-fluid">
+    <div class="row justify-content-lg-center">
+        <aside class="col-lg-3 col-md-3 bg-light project__side text-center">
+            <img src="img/icons/ambulance.svg" class="img-fluid project__aside--img" alt="Karetka">
+            <h3>Członkowie:</h3>
+            <span class="font-weight-bold">Oprogramowanie:</span>
+            <ul class="list-unstyled">
+                <li>Albert Einstein</li>
+                <li>Albert Einstein</li>
+            </ul>
+            <span class="font-weight-bold">Hardware:</span>
+            <ul class="list-unstyled">
+                <li>Albert Einstein</li>
+                <li>Albert Einstein</li>
+            </ul>
+        </aside>
+        <section class="col-lg-9 col-md-9 col-sm-12 project__side">
+            <div class="container">
+
+                <h3 class="title--project"> Karetki </h3>
+                <h4> System do optymalizacji trasy dojazdu karetki do pacjenta </h4>
+                <p>
+                    Dnia 14.10.2015r. przy okazji uroczystego podpisania przez Rektora AGH umowy o współpracy pomiędzy
+                    Małopolskim Urzędem Wojewódzkim i Akademią Górniczo-Hutniczą im. Stanisława Staszica w Krakowie dotyczącej platformy
+                    Spin-up został również zaprezentowany projekt sytemu informatycznego służącego do monitorowania i optymalizacji
+                    rozmieszczenia pojazdów medycznych na terenie województwa małopolskiego.
+                </p>
+                <p>
+                    System służy do wyliczenia mapy czasów dojazdów ambulansów na terenie województwa małopolskiego
+                    oraz zilustrowania rozmieszczenia karetek. Dzięki temu służby ratownicze mogą przeprowadzać
+                    symulację rozmieszczeń karetek, aby dobrać najbardziej optymalne rozmieszczenie.
+                </p>
+                <p> Wersja wstępna <a href="http://home.agh.edu.pl/~pioro/karetki">symulatora</a> jest dostępna na stronie dr. Adama Piórkowskiego</p>
+                <p>
+                    Artykuł o systemie:
+                    <a href="http://www.agh.edu.pl/blog-naukowy/info/article/karetki-dojada-szybciej-blog-naukowy/">
+                        www.agh.edu.pl/blog-naukowy/info/article/karetki-dojada-szybciej-blog-naukowy
+                    </a>
+                </p>
+
+
+                <!--- Gallery ---->
+                <div class="margin__top--m margin__bottom--m">
+                    <ul id="lightgallery__project--nord" class="project__gallery list-unstyled">
+                        <li class="project__thumbnail"
+                            data-src="img/project/karetki/karetki-mapa1.jpg"
+                            data-sub-html="<h4>Karetki</h4><p>Opis mapy: na niebiesko zaznaczono obszar, w którym karetka dojeżdża w ciągu 10 minut, na zielono obszar, gdzie dojeżdża w 20 minut, na żółto – 20-25 minut, na czerwono powyżej 25 minut.</p>">
+                            <a href="">
+                                <img class="img-responsive" src="img/project/karetki/karetki-mapa1.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--- Gallery ---->
+            </div>
+
+        </section>
+    </div>
+</div>
+
+
+
+
+
+<!--/ PROJECT ---------------------------------------------------------------------------------------- -->
+<!-- Admin Modal -->
+<div class="modal fade" id="adminModal" tabindex="-1" role="dialog" aria-labelledby="adminModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="adminModalLabel">Logowanie - Panel administracyjny</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group col-md-12">
+                        <label for="inputEmailAdmin" class="col-form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmailAdmin" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                    <button type="button" class="btn btn-secondary ml-3" data-dismiss="modal">Anuluj</button>
+                    <button type="submit" class="btn btn-primary float-right mr-3">Zaloguj</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p class="text-info small"> Aby uzyskać dostęp do panelu skontaktuj się z administratorem</p>
+            </div>
+        </div>
+    </div>
+</div> <!--/ Admin Modal -->
+
+<!-- Sesje KN -->
+<div class="modal fade" id="sesionModal" tabindex="-1" role="dialog" aria-labelledby="sesionModalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="sesionModalTitle">Spotkania KN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="text-danger">Obecnie nie ustalono terminu spotkań</p>
+                <p>Spotkania koła odbywają&nbsp;się&nbsp;w
+                    <span class="font-weight-bold">_______</span> <br>
+                   w sali <span class="font-weight-bold"> ___ o&nbsp;godzinie __:__ </span>
+                   co&nbsp;2&nbsp;tygodnie
+                </p>
+                <p>Serdecznie zapraszamy wszystkich zainteresowanych !</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+    </div>
+</div><!--/ Sesje KN -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-4 col-sm-12 ">
+                <p>
+                    <span class="font-weight-bold "> Geosinformatica </span> - Koło naukowe studentów informatyki stosowanej działającej na wydziale WGGiOŚ, Akademii Górniczo-Hutniczej w Krakowie
+                </p>
+                <p class="">
+                    Śledź nasz fanpage na <a class="font-weight-bold text-info" target="_blank" href="https://www.facebook.com/GeosInformatica">facebooku</a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 ml-auto ">
+                <p class="border border-top-0 border-right-0 border-left-0 border-white">Mapa strony:</p>
+                <ul class="list-unstyled">
+                    <li><a href="index.html#Projects">Projekty</a></li>
+                    <li><a href="index.html#News">Aktualności</a></li>
+                    <li><a href="members.html">Zarząd i członkowie</a></li>
+                    <li><a href="!00" data-toggle="modal" data-target="#sesionModal">Sesje KN</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <p>&nbsp;</p>
+                <ul class="list-unstyled">
+                    <li><a href="http://home.agh.edu.pl/~geoinf/pl/main/">Strona Katedry</a></li>
+                    <li><a href="http://www.informatica.agh.edu.pl/index.php/category/newsy/">Archiwum</a></li>
+                    <li><a href="https://get.google.com/albumarchive/105194706630229846053?source=pwa">Galeria</a></li>
+                    <li><a href="#!0" data-toggle="modal" data-target="#adminModal">Panel administracyjny</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="container-fluid footer__copyright">
+    <div class="row">
+        <div class="mx-auto text-center">
+            <p>Copyright © <span id="currentYear"> </span> Geosinformatica</p>
+            <p>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">
+                www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/scroll-entrance.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/light-gallery.min.js"></script>
+<script src="js/script.js"></script>
+
+
+<script>
+    lightGallery(document.getElementById('lightgallery__project--nord'))
+</script>
+
+
+</body>
+</html>

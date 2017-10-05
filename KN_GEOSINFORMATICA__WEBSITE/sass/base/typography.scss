@@ -12,8 +12,19 @@
   border-bottom:2px solid $darkTxt;
   margin-right:auto;
   margin-left:auto;
-
 }
+
+.title--project{
+  color: $darkTxt;
+  letter-spacing: 10px;
+  font-size:3em;
+  margin-bottom:20px;
+  padding-bottom:5px;
+  border-bottom:2px solid $darkTxt;
+  margin-right:auto;
+  margin-left:auto;
+}
+
 /*
 .title:hover {
   border-bottom:5px solid $red;

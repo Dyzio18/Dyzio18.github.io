@@ -46,23 +46,112 @@
     </div>
 </nav>
 
+<!-- PROJECT ---------------------------------------------------------------------------------------- -->
+
+
 <div class="project container-fluid">
-    <div class="row">
-        <aside class="col-lg-3 col-md-3 col-sm-12 bg-light project__side">
-            <img src="img/icons/drone.svg" class="img-fluid" alt="dron">
-            LEFT
+    <div class="row justify-content-lg-center">
+        <aside class="col-lg-3 col-md-3 bg-light project__side text-center">
+            <img src="img/icons/drone.svg" class="img-fluid project__aside--img" alt="dron">
+            <h3>Członkowie:</h3>
+            <span class="font-weight-bold">Oprogramowanie:</span>
+            <ul class="list-unstyled">
+                <li>Albert Einstein</li>
+                <li>Albert Einstein</li>
+            </ul>
+            <span class="font-weight-bold">Hardware:</span>
+            <ul class="list-unstyled">
+                <li>Albert Einstein</li>
+                <li>Albert Einstein</li>
+            </ul>
         </aside>
-        <div class="container">
-            <section class="col-lg-9 col-md-9 col-sm-12 project__side">
-                RIGHT
-                <h3> Projekt "NORR"</h3>
-                <h4> Dron do scanningu 3D</h4>
-            </section>
-        </div>
+        <section class="col-lg-9 col-md-9 col-sm-12 project__side">
+            <div class="container">
+
+                <h3 class="title--project"> Projekt "NORD"</h3>
+                <h4> Bezzałogowy system powietrzny do wizualizacji w czasie rzeczywistym obiektów geologicznych </h4>
+                <p>
+                    Podczas projektowania urządzenia przyświecały nam dwa cele.
+                    Przede wszystkim pragnęliśmy stworzyć uniwersalną platformę latającą,
+                    - wielowirnikowiec. Ze względu na charakterystykę
+                    studiów na jakich się znajdujemy oraz wydziału z którego pochodzimy,
+                    oprogramowanie skanera posłuży do tworzenia modeli 3D obiektów geologicznych.
+                    Umożliwi to pomiary w niedostępnych tradycyjnymi metodami miejscach.
+                    Konstrukcja przewiduje pełną możliwość modyfikacji oprogramowania wielowirnikowaca,
+                    jak również zdolność do podpięcia i obsługi dowolnego urządzenia pomiarowego (kamer, sensorów, sonarów etc.)
+                    o wadze nieprzekraczającej 2 kg. W tym momencie budowa quadcoptera jest na wykończeniu
+                    i mamy pierwsze efekty działania skanera 3D w postaci pierwszych pomiarów w pomieszczeniach.
+                </p>
+
+
+                <!--- Gallery ---->
+                <div class="margin__top--m margin__bottom--m">
+                    <ul id="lightgallery__project--nord" class="project__gallery list-unstyled">
+                        <li class="project__thumbnail"
+                            data-src="img/project/nord/nord-s1.jpg"
+                            data-sub-html="<h4>Projekt NORD</h4><p>Prezentacja projektu podczas Targów Projektów Akademickich</p>">
+                            <a href="">
+                                <img class="img-responsive" src="img/project/nord/nord-s1.jpg">
+                            </a>
+                        </li>
+                        <li class="project__thumbnail"
+                            data-src="img/project/nord/nord-s2.jpg"
+                            data-sub-html="<h4>Projekt NORD</h4><p>Prezentacja projektu</p>">
+                            <a href="">
+                                <img class="img-responsive" src="img/project/nord/nord-s2.jpg">
+                            </a>
+                        </li>
+                        <li class="project__thumbnail"
+                            data-src="img/project/nord/nord-noc-all.jpg"
+                            data-sub-html="<h4>Projekt NORD</h4><p>Nocne programowanie</p>">
+                            <a href="">
+                                <img class="img-responsive" src="img/project/nord/nord-noc-all.jpg">
+                            </a>
+                        </li>
+                        <li class="project__thumbnail"
+                            data-src="img/project/nord/nord-noc-all1.jpg"
+                            data-sub-html="<h4>Projekt NORD</h4><p>Nocne programowanie</p>">
+                            <a href="">
+                                <img class="img-responsive" src="img/project/nord/nord-noc-all1.jpg">
+                            </a>
+                        </li>
+                        <li class="project__thumbnail"
+                            data-src="img/project/nord/nord-noc-bug.jpg"
+                            data-sub-html="<h4>Projekt NORD</h4><p>Nocne programowanie - Kiedy przez godzine szukasz buga i znajdujesz go uświadomając sobie jakie to było proste</p>">
+                            <a href="">
+                                <img class="img-responsive" src="img/project/nord/nord-noc-bug.jpg">
+                            </a>
+                        </li>
+                        <li class="project__thumbnail"
+                            data-src="img/project/nord/nord-w1.jpg"
+                            data-sub-html="<h4>Projekt NORD</h4><p>Nocne programowanie - Członkowie koła podczas pracy nad oprogramowaniem kamery</p>">
+                            <a href="">
+                                <img class="img-responsive" src="img/project/nord/nord-w1.jpg">
+                            </a>
+                        </li>
+                        <li class="project__thumbnail"
+                            data-src="img/project/nord/nord-w2.jpg"
+                            data-sub-html="<h4>Projekt NORD</h4><p>Nocne programowanie - Członkowie koła podczas pracy nad oprogramowaniem kamery</p>">
+                            <a href="">
+                                <img class="img-responsive" src="img/project/nord/nord-w2.jpg">
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <!--- Gallery ---->
+            </div>
+
+        </section>
     </div>
 </div>
 
-<!-- ---------------------------------------------------------------------------------------- -->
+
+
+
+
+<!--/ PROJECT ---------------------------------------------------------------------------------------- -->
 <!-- Admin Modal -->
 <div class="modal fade" id="adminModal" tabindex="-1" role="dialog" aria-labelledby="adminModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -168,11 +257,14 @@
 <script src="js/scroll-entrance.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/light-gallery.min.js"></script>
+<script src="js/script.js"></script>
+
 
 <script>
+    lightGallery(document.getElementById('lightgallery__project--nord'))
+</script>
 
-</script>
-<script src="js/script.js">
-</script>
+
 </body>
 </html>
